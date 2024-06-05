@@ -1,0 +1,50 @@
+.users-container {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.users-container h1, .users-container h2 {
+    color: #333;
+}
+
+.users-container button {
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #db0d1f;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.users-container button:hover {
+    background-color: #420008;
+}
+
+.users-container input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.users-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.users-container ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

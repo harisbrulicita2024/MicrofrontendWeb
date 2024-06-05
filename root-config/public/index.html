@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microfrontends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="systemjs-importmap">
+    {
+      "imports": {
+        "@my-org/jobs": "//localhost:8500/jobs.js",
+        "@my-org/users": "//localhost:8501/users.js",
+        "@my-org/tracking": "//localhost:8502/tracking.js"
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/systemjs/dist/system.js"></script>
+  <script src="/my-org-root-config.js"></script>
+</body>
+</html>

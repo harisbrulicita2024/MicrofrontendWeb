@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .microfrontend {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+  }
+  
+  .jobs-container, .users-container, .tracking-container {
+    width: 100%;
+  }
+  
+  body {
+    font-family: Montserrat, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  button {
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  

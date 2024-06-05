@@ -1,0 +1,50 @@
+.tracking-container {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.tracking-container h1, .tracking-container h2 {
+    color: #333;
+}
+
+.tracking-container button {
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #0c73b7;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tracking-container button:hover {
+    background-color: #020970;
+}
+
+.tracking-container input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tracking-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tracking-container ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
